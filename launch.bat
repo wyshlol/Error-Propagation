@@ -1,0 +1,1 @@
+wscript.exe "invisible.vbs" "error_propagation.bat"
