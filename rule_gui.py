@@ -299,7 +299,7 @@ if __name__ == '__main__':
 	root.title('Physics Rules')
 	root.iconphoto(False, PhotoImage(file='icon.png'))
 	x_size, y_size = 350, 210
-	root.geometry(f'{x_size}x{y_size}+500+300')
+	root.geometry(f'{x_size}x{y_size}+200+200')
 	root.minsize(x_size, y_size)
 	root.maxsize(x_size, y_size)
 	root.configure(bg='light gray')
