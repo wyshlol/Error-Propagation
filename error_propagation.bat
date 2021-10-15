@@ -1,1 +1,1 @@
-python rule_gui.py
+wscript.exe "invisible.vbs" "runner.bat"
