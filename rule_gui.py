@@ -298,7 +298,7 @@ if __name__ == '__main__':
 	root = Tk()
 	root.title('Physics Rules')
 	root.iconphoto(False, PhotoImage(file='icon.png'))
-	x_size, y_size = 400, 210
+	x_size, y_size = 350, 210
 	root.geometry(f'{x_size}x{y_size}+200+200')
 	root.minsize(x_size, y_size)
 	root.maxsize(x_size, y_size)
