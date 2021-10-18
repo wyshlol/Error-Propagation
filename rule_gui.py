@@ -12,7 +12,7 @@ def rule1():
 	rule1.title('Rule 1')
 	rule1.iconphoto(False, PhotoImage(file='icon.png'))
 	root_x, root_y = root.winfo_rootx(), root.winfo_rooty()
-	win_x, win_y = root_x + 375, root_y - 31
+	win_x, win_y = root_x + 380, root_y - 31
 	rule1.geometry(f'600x350+{win_x}+{win_y}')
 	rule1.configure(bg='light gray')
 	space = Label(rule1, text='   ', bg='light gray').grid(row=0, column=0)
@@ -50,7 +50,7 @@ def rule2():
 	rule2.title('Rule 2')
 	rule2.iconphoto(False, PhotoImage(file='icon.png'))
 	root_x, root_y = root.winfo_rootx(), root.winfo_rooty()
-	win_x, win_y = root_x + 375, root_y - 31
+	win_x, win_y = root_x + 380, root_y - 31
 	rule2.geometry(f'600x350+{win_x}+{win_y}')
 	rule2.configure(bg='light gray')
 	space = Label(rule2, text='   ', bg='light gray').grid(row=0, column=0)
@@ -102,7 +102,7 @@ def rule3():
 	rule3.title('Rule 3')
 	rule3.iconphoto(False, PhotoImage(file='icon.png'))
 	root_x, root_y = root.winfo_rootx(), root.winfo_rooty()
-	win_x, win_y = root_x + 375, root_y - 31
+	win_x, win_y = root_x + 380, root_y - 31
 	rule3.geometry(f'600x350+{win_x}+{win_y}')
 
 	#Create Scrollbar
@@ -180,7 +180,7 @@ def rule4():
 	rule4.title('Rule 4')
 	rule4.iconphoto(False, PhotoImage(file='icon.png'))
 	root_x, root_y = root.winfo_rootx(), root.winfo_rooty()
-	win_x, win_y = root_x + 375, root_y - 31
+	win_x, win_y = root_x + 380, root_y - 31
 	rule4.geometry(f'600x350+{win_x}+{win_y}')
 
 	#Create Scrollbar
@@ -298,7 +298,7 @@ if __name__ == '__main__':
 	root = Tk()
 	root.title('Physics Rules')
 	root.iconphoto(False, PhotoImage(file='icon.png'))
-	x_size, y_size = 350, 210
+	x_size, y_size = 380, 210
 	root.geometry(f'{x_size}x{y_size}+200+200')
 	root.minsize(x_size, y_size)
 	root.maxsize(x_size, y_size)
