@@ -322,7 +322,7 @@ if __name__ == '__main__':
 	rule3Equation = Label(text='\u03B4Q=\u221A((\u03B4A)²+(\u03B4B)²)', font='15', width=25).grid(row=5, column=3)
 	space = Label(root, text='   ', bg='light gray').grid(row=6, column=0)
 
-	rule4Equation = Label(text='\u03B4Q=|Q|\u221A((m\u03B4A/A)²+(n\u03B4B/B)²', font='15', width=25).grid(row=7, column=3)
+	rule4Equation = Label(text='\u03B4Q=|Q|\u221A((m\u03B4A/A)²+(n\u03B4B/B)²)', font='15', width=25).grid(row=7, column=3)
 
 
 	root.mainloop()
